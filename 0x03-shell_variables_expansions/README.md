@@ -2,8 +2,8 @@
 
 ### Create a script that creates an alias.
 
-#### alias - recognised  keyword in shell environment
-#### <code>variable_name</code> - new command alias
+#### alias - keyword
+#### <code> variable_name</code> - new command alias
 #### <code>command</code> the assigned commans
 
 
