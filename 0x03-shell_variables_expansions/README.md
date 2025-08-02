@@ -3,8 +3,8 @@
 ### Create a script that creates an alias.
 
 #### alias - recognised  keyword in shell environment
-#### <code>'<var>'</code> - new command alias
-#### <code>'<command>'</code> the assigned commans
+#### <code>variable_name</code> - new command alias
+#### <code>command</code> the assigned commans
 
 
 ### Create a script that prints hello user, where user is the current Linux user
