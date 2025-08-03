@@ -22,3 +22,7 @@
 #### <code>tr ':' '\n'</code> will translate every colon in the PATH into a newline character. This effectively puts each directory on a new line.
 #### <code> wc -l </code> then counts the number of lines, which gives you the total number of directories.
 
+
+#### List ENV Variables
+#### Script file: 4-global_variables
+#### printenv - shell keyword
