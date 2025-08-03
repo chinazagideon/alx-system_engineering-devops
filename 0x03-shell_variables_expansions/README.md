@@ -12,3 +12,6 @@
 #### echo - keyword to print any parameter assigned 
 #### $USER - reserved shell keyword for current user
 
+### Add /action to the PATH. /action should be the last directory the shell looks into when looking for a program.
+
+#### $PATH - shell variable with recognised command paths
