@@ -1,2 +1,2 @@
 #!/bin/bash
-echo "$WATER$STIR" | tr 'ewatrsit.' 'shtbcol' | tr -d 'aew' | tr 't' 'e' | tr 's' 'h'
+echo "5i $(echo $WATER | tr 'water' '01234') 4i $(echo $STIR | tr 'stir' '0123' | tr '.' '.') + 8o p" | dc | tr '01234567' 'bestchol'
