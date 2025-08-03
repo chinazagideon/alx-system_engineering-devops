@@ -1,2 +1,2 @@
 #!/bin/bash
-while read a; do echo "$a"; read; done
+pr -t -2 | cut -f1
