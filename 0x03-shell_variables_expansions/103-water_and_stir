@@ -1,0 +1,2 @@
+#!/bin/bash
+echo "$WATER$STIR" | tr 'ewatrsit.' 'shtbcol' | tr -d 'aew' | tr 't' 'e' | tr 's' 'h'
