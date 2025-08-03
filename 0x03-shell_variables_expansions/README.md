@@ -36,3 +36,6 @@
 
 ### Create a script that creates a new global variable.
 #### script file: 7-create_local_variable
+
+### Create a script that creates addition of 128 with the value stored in the environment variable TRUEKNOWLEDGE
+#### script file: 8-true-knowledge
