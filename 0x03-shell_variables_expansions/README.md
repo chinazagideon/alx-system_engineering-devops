@@ -26,3 +26,7 @@
 #### List ENV Variables
 #### Script file: 4-global_variables
 #### printenv - shell keyword
+
+### - Local Variables : Create a script that lists all local variables and environment variables, and functions.
+#### script file: 5-local_variables
+#### set - keyword to list all local vars, env vars and functions
