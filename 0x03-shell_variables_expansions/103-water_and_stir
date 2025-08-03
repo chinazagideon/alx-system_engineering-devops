@@ -1,3 +1,2 @@
 #!/bin/bash
-echo "$WATER" | tr 'wate' '0123' | tr 'r' '4'
-echo "$STIR" | tr 'stir' '0123'
+echo "$WATER$STIR" | tr 'ewatrsit.' 'shtbcol' | tr -d 'aew' | tr 't' 'e' | tr 's' 'h'
