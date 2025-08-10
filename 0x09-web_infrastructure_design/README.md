@@ -2,7 +2,7 @@
 # Web infrastructure design
 ## TASK 0: Simple web stack
 
-![Simple web stack diagram](simple_web_stack.png "Simple web stack architecture")
+![Simple web stack diagram](Simple-web-stack.png "Simple web stack architecture")
 
 ### What is a server: a computer that manages requests and response from and to the web server respectively, they can only be access via network protocols e.g TCP/IP
 
