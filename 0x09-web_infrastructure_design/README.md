@@ -2,6 +2,8 @@
 # Web infrastructure design
 ## TASK 0: Simple web stack
 
+![Simple web stack diagram](simple_web_stack.png "Simple web stack architecture")
+
 ### What is a server: a computer that manages requests and response from and to the web server respectively, they can only be access via network protocols e.g TCP/IP
 
 ### What is the role of the domain name: A domain name is the human-readable name of a website, like foobar.com. Its role is to provide a simple way for people to access a website without having to remember the server's specific IP address.
