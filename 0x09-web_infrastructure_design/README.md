@@ -18,4 +18,7 @@
 
 ### What is the server using to communicate with the computer of the user requesting the website: The server uses a network protocol called TCP/IP (Transmission Control Protocol/Internet Protocol) to communicate with the user's computer. 
 
-
+## POTENTIAL ISSUES
+### SPOF - single point of failure, if the application server or database fails the server won't be able to reach or return user required response.
+### Downtime when maintenance needed (like deploying new code web server needs to be restarted): Server downtime due to system upgrade would affect application uptime.
+### Cannot scale if too much incoming traffic: the application only has one application server which could create overload during high traffic or potential server downtimes
