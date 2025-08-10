@@ -1,7 +1,8 @@
 
 # Web infrastructure design
 # TASK 0: Simple web stack
-![Simple web stack diagram](https://imgur.com/gallery/simple-web-stack-qZEKJzL  "Simple web stack architecture")
+
+![Simple web stack diagram](https://prnt.sc/zIFaW7h5dGNv "Simple web stack architecture")
 
 
 ## What is a server: 
@@ -28,7 +29,7 @@
 ### Cannot scale if too much incoming traffic: the application only has one application server which could create overload during high traffic or potential server downtimes
 
 # Task 1: Distributed web infrastructure
-![Distributed web infrastructure diagram](https://imgur.com/gallery/distributed-web-infrastructure-RDlh7iv "Distributed web infrastructure")
+![Distributed web infrastructure diagram](https://prnt.sc/el4QHlKA9KXl "Distributed web infrastructure")
 
 ## What distribution algorithm your load balancer is configured with and how it works; 
 ### Active-Active vs. Active-Passive: This setup is an Active-Active cluster. In this configuration, both servers are online and actively serving traffic simultaneously.
@@ -51,9 +52,9 @@
 ## No monitoring
 ### No Monitoring: The lack of monitoring is a significant issue. Without monitoring, there's no way to track server health, performance, or traffic spikes
 
-## TASK 2: Secured and monitored web infrastructure
+# TASK 2: Secured and monitored web infrastructure
 
-![Secured and monitored web infrastructure Design](https://imgur.com/gallery/secured-monitored-web-infrastructure-KJqa4YI "Secured and monitored web infrastructure")
+![Secured and monitored web infrastructure Design](https://prnt.sc/ugE_HfLXEIJC "Secured and monitored web infrastructure")
 
 
 ## Firewalls:
@@ -83,10 +84,10 @@
 ## Servers with all the same components: 
 ### Having a single server that hosts the database, web server, and application server is a problem because it creates a tightly coupled system. It's difficult to scale individual components independently. For example, if you need to handle more web traffic, you can't just add another web server; you would need to duplicate the entire server, including the database, which is inefficient. It also creates security risks by exposing the database to the public-facing components.
 
+
 # Task 3: Scale Up
 
-# External URL
-![Scale up Design](https://imgur.com/gallery/scale-up-oHhlQ1h "Scale up")
+![Scale up Design](https://prnt.sc/qO3akl6_XO2s "Scale up")
 
 
 ## Split Components: 
